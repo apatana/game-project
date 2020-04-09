@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+  
+}
+
+h1 {
+  color: yellow;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid greenyellow;
+  background-image: url("/img/Jungle.png");
+  background-size: 800px 600px;
+  background-repeat: no-repeat;
+}
+
+#btnStart {
+  box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+  background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+  background-color:#b8e356;
+  border-radius:6px;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #86ae47;
+  margin: 10px auto;
+}
+
+  
+
+
