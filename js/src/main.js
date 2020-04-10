@@ -6,8 +6,8 @@ import {createDragon, drawDragon} from "./dragons.js";
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 
-let bite = new Audio('./sounds/bite.mp3');
-let monkeyhit = new Audio('./sounds/monkey.mp3')
+let bite = new Audio('../../sounds/bite.mp3');
+let monkeyhit = new Audio('../../sounds/monkey.mp3')
 
 // let startButton = document.getElementById("btnStart");
 let banana = createBanana();
@@ -66,7 +66,7 @@ function checkCollisionBananas(monkey,banana) {
       scoreBananas = scoreBananas + 1;
       bite.play();
   } 
-  if (scoreBananas == 10) {
+  if (scoreBananas == 20) {
     WinningScene()
   }
 }

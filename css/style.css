@@ -18,7 +18,7 @@ h1 {
 
 canvas {
   border: 1px solid greenyellow;
-  background-image: url("./img/Jungle.png");
+  background-image: url("/./img/Jungle.png");
   background-size: 800px 600px;
   background-repeat: no-repeat;
 }
