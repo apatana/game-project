@@ -6,8 +6,8 @@ import {createDragon, drawDragon} from "./dragons.js";
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 
-let bite = new Audio(window.location.href  + "game-project/sounds/bite.mp3");
-let monkeyhit = new Audio(window.location.href +"game-project/sounds/monkey.mp3")
+let bite = new Audio(window.location.href  + "sounds/bite.mp3");
+let monkeyhit = new Audio(window.location.href +"sounds/monkey.mp3")
 
 // let startButton = document.getElementById("btnStart");
 let banana = createBanana();
