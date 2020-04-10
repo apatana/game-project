@@ -18,7 +18,11 @@ h1 {
 
 canvas {
   border: 1px solid greenyellow;
+<<<<<<< HEAD
   background-image: url("/./img/Jungle.png");
+=======
+  background-image: url("../img/Jungle.png");
+>>>>>>> c3b61b26e111a326ca89dd7508829b6184b9c8d7
   background-size: 800px 600px;
   background-repeat: no-repeat;
 }
